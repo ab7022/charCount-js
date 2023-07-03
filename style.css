@@ -32,8 +32,8 @@ input:focus{
     background-color: rgb(253, 245, 196);
 }
 button{
-    background-color: rgb(209, 184, 23);
-    border: 1px solid rgb(209, 184, 23);
+    background-color: rgb(238, 255, 0);
+    border: 1px solid rgb(222, 233, 19);
     color: rgb(44, 43, 36);
     border-radius: 4px;
     padding: 0.5rem 1.5rem;
@@ -53,4 +53,59 @@ input.warning{
 }
 #remaining-chars.warning{
     color: rgb(211, 127, 26);
+}
+input.error{
+    background-color: rgb(248, 157, 145);
+}
+#remaining-chars.error{
+    color: rgb(255, 38, 0);
+}
+/* 
+.................................................................... */
+#calculate-sum{
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 50rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 1rem;
+    background-color: rgb(246, 245, 201);
+}
+.display{
+    font-size: 16px;
+    display: none;
+    background-color: rgb(254, 220, 0);
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 8px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+
+#num,#targetedNumber{
+    width: 40px;
+    height: 30px;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px;
+    padding-left: 40px;
+}
+#highlight,#user-details,#statistics{
+   margin: 3rem auto;
+    width: 90%;
+    max-width: 50rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 1rem;
+    background-color: rgb(246, 245, 201);
+}
+.strongAll{
+    color: rgb(161, 161, 1);
 }
