@@ -5,7 +5,7 @@ function updateRemainingChars(event){
     let enteredText = event.target.value;
     let enteredTextLength = enteredText.length;
     let remainingCharacters = 60 - enteredTextLength
-    remainingCharsElement.textContent = remainingCharacters;  
+    remainingCharsElement.textContent = remainingCharacters; 
     if (remainingCharacters ===0) {
         productNameInputElement.classList.add("error")
         remainingCharsElement.classList.add("error")
